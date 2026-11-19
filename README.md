@@ -10,9 +10,9 @@
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**LLM from Scratch**](https://github.com/DiegoTDDD/llm-from-scratch) | BPE tokenizer, causal attention, GPT-style decoder and KV-cache implemented in PyTorch and trained on SEC filings text | PyTorch |
+| [**LLM from Scratch**](https://github.com/DiegoTDDD/llm-from-scratch) | GPT-style model written from scratch (byte-level BPE, causal attention, KV cache) and trained on 13M characters of 10-K filings on a free CPU runner: validation perplexity 32 vs 837 for a unigram baseline, KV cache up to 5.8× faster | PyTorch, GitHub Actions |
 | [**SEC Filings RAG**](https://github.com/DiegoTDDD/sec-filings-rag) | Question answering over 10-K/10-Q filings with cited sources, hybrid retrieval, re-ranking and RAGAS evaluation · [Demo](https://sec-filings-rag-demo.streamlit.app) | Qdrant, Ollama, sentence-transformers, FastAPI |
-| [**SEC MCP Agent**](https://github.com/DiegoTDDD/sec-mcp-agent) | Tool-calling agent with custom MCP servers exposing the SEC RAG and the fraud model, with structured outputs | MCP, Pydantic, FastAPI |
+| [**SEC MCP Agent**](https://github.com/DiegoTDDD/sec-mcp-agent) | MCP servers over SEC 10-K filings and the fraud model, and a local tool-calling agent whose citations are verified against the retrieved passages; works in Claude Desktop | MCP SDK, Pydantic, Ollama, XGBoost |
 | [**Fraud Investigation Agents**](https://github.com/DiegoTDDD/fraud-investigation-agents) | Multi-agent system (planner, researcher, critic, reporter) that investigates suspicious transactions end to end | LangGraph, MCP |
 | [**LLM Evals & Observability**](https://github.com/DiegoTDDD/llm-evals-observability) | Evaluation harness with regression gates in CI, plus tracing, latency and cost monitoring | RAGAS, OpenTelemetry, Langfuse |
 | [**LLM Guardrails & Red Team**](https://github.com/DiegoTDDD/llm-guardrails-redteam) | Threat model, input/output guardrails, PII redaction and an automated red-team suite running in CI | Presidio, pytest |
