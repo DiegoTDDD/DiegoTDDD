@@ -4,9 +4,9 @@
 
 📍 São Paulo state, Brazil · 🗣️ Portuguese (native), English (C2), Spanish (C1)
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-diegotddd.github.io-13233a?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegotddd.github.io/en/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-diegotddd.github.io-13233a?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegotddd.github.io/)
 
-🇧🇷 *Portfólio em português, com estudos de caso e resultados medidos de cada projeto: [diegotddd.github.io](https://diegotddd.github.io/)*
+*Case studies and measured results for every project, in English and Portuguese.*
 
 ---
 
