@@ -64,4 +64,4 @@ Every project ships with automated tests and CI, documented architecture decisio
 - AI Technician — IFNMG (expected 2027)
 - Technologist in Business Management — Fatec Catanduva (2023)
 
-📚 Author of five published books (technical, business and literary).
+📚 Five books written, not yet published: the [Data-Driven Decisions trilogy](https://diegotddd.github.io/en/books.html) in English (SQL, Power BI and Python for decisions), plus a business book and a 1,042-page data science guide in Portuguese.
