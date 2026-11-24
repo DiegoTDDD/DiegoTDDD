@@ -16,7 +16,7 @@
 | [**Fraud Investigation Agents**](https://github.com/DiegoTDDD/fraud-investigation-agents) | LangGraph team (planner, researcher, reporter, rule-based critic) that investigates fraud alerts through MCP tools; on 30 known cases the critic loop lifts pattern accuracy from 47% (single LLM call) to 77% | LangGraph, MCP, Ollama |
 | [**LLM Evals & Observability**](https://github.com/DiegoTDDD/llm-evals-observability) | Regression gate on every pull request (replays 162 real model tool calls; [blocked a regression](https://github.com/DiegoTDDD/llm-evals-observability/pull/1)), weekly live evals traced with OpenTelemetry into self-hosted Langfuse, and a [public dashboard](https://diegotddd.github.io/llm-evals-observability/) | OpenTelemetry, Langfuse, GitHub Actions |
 | [**LLM Guardrails & Red Team**](https://github.com/DiegoTDDD/llm-guardrails-redteam) | Six guardrail layers wrapped around both agents (injection quarantine, PII redaction, tool policy, output, critic, log redaction); a red-team suite runs in CI: 23 attacks that all work unguarded are all blocked, with 0 false positives on 283 real texts | MCP, LangGraph, OpenTelemetry, pytest |
-| [**Fine-Tune & Serve**](https://github.com/DiegoTDDD/finetune-and-serve) | QLoRA fine-tuning for structured extraction and self-hosted inference benchmarked against a hosted API | PEFT, vLLM |
+| [**Fine-Tune & Serve**](https://github.com/DiegoTDDD/finetune-and-serve) | LoRA fine-tune of a 0.5B model on a free CPU runner to tag XBRL facts in 10-K sentences: 0.82 F1 on auditor labels against 0.65 for a 3B model with examples, 3.7× the throughput, served with llama.cpp and costed against API list prices | PEFT, llama.cpp |
 
 ## 🏗️ Data Engineering & Machine Learning
 
@@ -44,7 +44,7 @@ Every project ships with automated tests and CI, documented architecture decisio
 - **Languages:** Python, SQL
 - **Data engineering:** Spark, Kafka / Redpanda, Delta Lake, DuckDB, Polars, dbt, Dagster, PostgreSQL
 - **Machine learning:** scikit-learn, XGBoost, MLflow, Evidently, SHAP, causal inference, survival analysis, time series
-- **Deep learning & LLMs:** PyTorch, Transformers, RAG, MCP, LangGraph, QLoRA, vLLM, Qdrant, Ollama, RAGAS, Langfuse
+- **Deep learning & LLMs:** PyTorch, Transformers, RAG, MCP, LangGraph, LoRA, llama.cpp, Qdrant, Ollama, RAGAS, Langfuse
 - **Engineering:** Docker, FastAPI, GitHub Actions, pytest, OpenTelemetry
 - **BI:** Power BI (DAX), Tableau, Streamlit
 
