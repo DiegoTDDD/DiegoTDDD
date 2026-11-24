@@ -4,6 +4,8 @@
 
 📍 São Paulo state, Brazil · 🗣️ Portuguese (native), English (C2), Spanish (C1)
 
+🌐 **Portfolio with case studies and measured results: [diegotddd.github.io](https://diegotddd.github.io/)**
+
 ---
 
 ## 🧠 AI Engineering
