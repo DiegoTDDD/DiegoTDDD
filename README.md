@@ -5,8 +5,6 @@
 📍 São Paulo state, Brazil · 🗣️ Portuguese (native), English (C2), Spanish (C1)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-diegotddd.github.io-13233a?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegotddd.github.io/en/)
-[![Résumé (PDF)](https://img.shields.io/badge/R%C3%A9sum%C3%A9-PDF-0b625b?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://diegotddd.github.io/cv/resume-diego-alves.pdf)
-[![Currículo (PDF)](https://img.shields.io/badge/Curr%C3%ADculo-PDF-9a5200?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://diegotddd.github.io/cv/curriculo-diego-alves.pdf)
 
 🇧🇷 *Portfólio em português, com estudos de caso e resultados medidos de cada projeto: [diegotddd.github.io](https://diegotddd.github.io/)*
 
@@ -56,13 +54,6 @@ Every project ships with automated tests and CI, documented architecture decisio
 **LLMs & agents** ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![LoRA (PEFT)](https://img.shields.io/badge/LoRA_(PEFT)-FF9D00?style=flat-square) ![llama.cpp](https://img.shields.io/badge/llama.cpp-000000?style=flat-square) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-D97757?style=flat-square) ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square) ![RAGAS](https://img.shields.io/badge/RAGAS-6A5ACD?style=flat-square) ![Langfuse](https://img.shields.io/badge/Langfuse-0A0A0A?style=flat-square) ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white)
 
 **Product & BI** ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square)
-
----
-
-## 💼 Experience
-
-- **Junior Data Analyst** — GVC Soluções em Cobrança (Grupo Rodobens), São José do Rio Preto, SP (Jun 2024 – Jun 2026)
-- **IT Assistant / Intern** — Lincetractor, Catanduva, SP (Apr 2023 – Jun 2024)
 
 ---
 
