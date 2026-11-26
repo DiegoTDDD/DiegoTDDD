@@ -1,14 +1,45 @@
 # Hi, I'm Diego Alves 👋
 
-**Data Engineer, Data Scientist & AI Engineer** building end-to-end data platforms, machine learning systems and LLM applications, from raw ingestion to deployed, tested and evaluated products.
+**Data Engineer** building pipelines, warehouses and dashboards that answer a business decision, with machine learning and LLM projects measured the same way.
 
 📍 São Paulo state, Brazil · 🗣️ Portuguese (native), English (C2), Spanish (C1)
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-diegoalves.vercel.app-13233a?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegoalves.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-diegoalves.vercel.app-13233a?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegoalves.vercel.app/) [![Email](https://img.shields.io/badge/Email-diegoleonardo380%40gmail.com-0b625b?style=for-the-badge&logo=gmail&logoColor=white)](mailto:diegoleonardo380@gmail.com)
 
 *Case studies and measured results for every project, in English and Portuguese.*
 
 ---
+
+## ⭐ Start here
+
+| Project | What it proves |
+|---|---|
+| [**Olist Cloud Warehouse**](https://github.com/DiegoTDDD/olist-cloud-warehouse) | A BigQuery warehouse delivered with Terraform, keyless deploys and enforced dbt contracts; partitioning cuts the bytes read by a one-month query by 92%, measured on every deploy |
+| [**LogiNexus — Freight Intelligence**](https://github.com/DiegoTDDD/freight-intelligence) | Scale and operating under constraints: a 97.6M-row pipeline, and a production out-of-memory crash on a 512 MiB host traced, fixed and guarded by a CI check |
+| [**Fraud Investigation Agents**](https://github.com/DiegoTDDD/fraud-investigation-agents) | An agent measured against baselines with its limits shown: the critic loop lifts pattern accuracy from 47% to 77% on 30 synthetic cases |
+
+## 🏗️ Data Engineering & Machine Learning
+
+| Project | What it does | Stack | Live |
+|---|---|---|---|
+| [**Olist Cloud Warehouse**](https://github.com/DiegoTDDD/olist-cloud-warehouse) | BigQuery warehouse in São Paulo: Terraform, keyless CI through Workload Identity Federation, dbt with enforced contracts; partitioning cuts a one-month query by 92% | BigQuery, Terraform, dbt | [Project page](https://diegotddd.github.io/olist-cloud-warehouse/) |
+| [**LogiNexus — Freight Intelligence**](https://github.com/DiegoTDDD/freight-intelligence) | Freight analytics and forecasting platform: 97.6M-row medallion pipeline, forecasting evaluated on held-out years, truck-aware routing and a public API | Python, Polars, DuckDB, FastAPI, Docker | [Demo](https://loginexus-dashboard-preview.onrender.com/) |
+| [**Real-Time Fraud Detection ML**](https://github.com/DiegoTDDD/realtime-fraud-detection-ml) | XGBoost model scoring a live Kafka stream in real time, with a precision/recall dashboard (PR-AUC 0.9925) | XGBoost, Spark Structured Streaming, Kafka | [Demo](https://realtime-fraud-detection-ml.streamlit.app) |
+| [**Real-Time Fraud Streaming**](https://github.com/DiegoTDDD/realtime-fraud-streaming) | Streaming backbone with event-time windows and watermarking over ~10 transactions/second | Redpanda, Spark Structured Streaming | [Demo](https://realtime-fraud-streaming.streamlit.app) |
+| [**Supply Chain Risk Intelligence**](https://github.com/DiegoTDDD/supply-chain-risk-intelligence) | Delivery-delay analysis from cause to decision: causal inference, survival analysis, forecasting, SHAP and optimization | statsmodels, lifelines, XGBoost, PuLP | [Demo](https://diego-supply-chain-risk.streamlit.app) |
+| [**NYC Tip MLOps**](https://github.com/DiegoTDDD/nyc-tip-mlops) | End-to-end MLOps: training, model registry, API serving and drift monitoring | MLflow, FastAPI, Evidently, Docker | [Demo](https://nyc-tip-mlops.streamlit.app) |
+| [**NYC Taxi Lakehouse**](https://github.com/DiegoTDDD/nyc-taxi-lakehouse) | Medallion lakehouse over 22M+ taxi trips with schema evolution and data quality checks | Delta Lake, DuckDB, Dagster | [Demo](https://nyc-taxi-lakehouse.streamlit.app) |
+| [**Olist Analytics**](https://github.com/DiegoTDDD/olist-analytics) | Dimensional model, dbt tests and dashboard on Brazilian e-commerce data | dbt, DuckDB | [Demo](https://diegotddd-olist-analytics.streamlit.app) |
+| [**Economic Data Platform**](https://github.com/DiegoTDDD/Economic-data-platform) | Containerized ELT pipeline for Brazilian macroeconomic and crypto market data, with quality checks and atomic Gold refresh | PostgreSQL, Docker, GitHub Actions | [Demo](https://diegotddd-economic-data-platform.streamlit.app) |
+
+## 🤝 Team projects in real use
+
+Built with UNIVESP classmates for real organizations; the code belongs to the teams.
+
+| Project | What it does |
+|---|---|
+| [**Hospcall**](https://diegoalves.vercel.app/en/projects/hospcall.html) | Nurse-call system piloted for six months at AGERIP, a geriatric care association: tablets in the rooms, TV panels in the corridors, PIN check-in and an audited admin page; 60 caregivers registered, and the care team's feedback reshaped the product |
+| [**IEFA sales and stock**](https://diegoalves.vercel.app/en/projects/iefa-sales-stock.html) | Barcode point of sale and stock control used by the volunteers of a charity shop on every working day; reports of wrong prices stopped after the labels were adopted |
 
 ## 🧠 AI Engineering
 
@@ -23,25 +54,11 @@
 | [**LLM Guardrails & Red Team**](https://github.com/DiegoTDDD/llm-guardrails-redteam) | Six guardrail layers wrapped around both agents (injection quarantine, PII redaction, tool policy, output, critic, log redaction); a red-team suite runs in CI: 23 attacks that all work unguarded are all blocked, with 0 false positives on 283 real texts | MCP, LangGraph, OpenTelemetry, pytest | [![ci](https://github.com/DiegoTDDD/llm-guardrails-redteam/actions/workflows/redteam.yml/badge.svg)](https://github.com/DiegoTDDD/llm-guardrails-redteam/actions/workflows/redteam.yml) |
 | [**Fine-Tune & Serve**](https://github.com/DiegoTDDD/finetune-and-serve) | LoRA fine-tune of a 0.5B model on a free CPU runner to tag XBRL facts in 10-K sentences: 0.82 F1 on auditor labels against 0.65 for a 3B model with examples, 3.7× the throughput, served with llama.cpp and costed against API list prices | PEFT, llama.cpp | [![ci](https://github.com/DiegoTDDD/finetune-and-serve/actions/workflows/ci.yml/badge.svg)](https://github.com/DiegoTDDD/finetune-and-serve/actions/workflows/ci.yml) |
 
-## 🏗️ Data Engineering & Machine Learning
-
-| Project | What it does | Stack | Live |
-|---|---|---|---|
-| [**LogiNexus — Freight Intelligence**](https://github.com/DiegoTDDD/freight-intelligence) | Freight analytics and forecasting platform: 97.6M-row medallion pipeline, forecasting evaluated on held-out years, truck-aware routing and a public API | Python, Polars, DuckDB, FastAPI, Docker | [Demo](https://loginexus-dashboard-preview.onrender.com/) |
-| [**Real-Time Fraud Detection ML**](https://github.com/DiegoTDDD/realtime-fraud-detection-ml) | XGBoost model scoring a live Kafka stream in real time, with a precision/recall dashboard (PR-AUC 0.9925) | XGBoost, Spark Structured Streaming, Kafka | [Demo](https://realtime-fraud-detection-ml.streamlit.app) |
-| [**Real-Time Fraud Streaming**](https://github.com/DiegoTDDD/realtime-fraud-streaming) | Streaming backbone with event-time windows and watermarking over ~10 transactions/second | Redpanda, Spark Structured Streaming | [Demo](https://realtime-fraud-streaming.streamlit.app) |
-| [**Supply Chain Risk Intelligence**](https://github.com/DiegoTDDD/supply-chain-risk-intelligence) | Delivery-delay analysis from cause to decision: causal inference, survival analysis, forecasting, SHAP and optimization | statsmodels, lifelines, XGBoost, PuLP | [Demo](https://diego-supply-chain-risk.streamlit.app) |
-| [**NYC Tip MLOps**](https://github.com/DiegoTDDD/nyc-tip-mlops) | End-to-end MLOps: training, model registry, API serving and drift monitoring | MLflow, FastAPI, Evidently, Docker | [Demo](https://nyc-tip-mlops.streamlit.app) |
-| [**NYC Taxi Lakehouse**](https://github.com/DiegoTDDD/nyc-taxi-lakehouse) | Medallion lakehouse over 22M+ taxi trips with schema evolution and data quality checks | Delta Lake, DuckDB, Dagster | [Demo](https://nyc-taxi-lakehouse.streamlit.app) |
-| [**Olist Cloud Warehouse**](https://github.com/DiegoTDDD/olist-cloud-warehouse) | BigQuery warehouse in São Paulo: Terraform, keyless CI through Workload Identity Federation, dbt with enforced contracts; partitioning cuts a one-month query by 92% | BigQuery, Terraform, dbt | [Project page](https://diegotddd.github.io/olist-cloud-warehouse/) |
-| [**Olist Analytics**](https://github.com/DiegoTDDD/olist-analytics) | Dimensional model, dbt tests and dashboard on Brazilian e-commerce data | dbt, DuckDB | [Demo](https://diegotddd-olist-analytics.streamlit.app) |
-| [**Economic Data Platform**](https://github.com/DiegoTDDD/Economic-data-platform) | Containerized ELT pipeline for Brazilian macroeconomic and crypto market data, with quality checks and atomic Gold refresh | PostgreSQL, Docker, GitHub Actions | [Demo](https://diegotddd-economic-data-platform.streamlit.app) |
-
 ---
 
 ## ⚙️ How I build
 
-Every project ships with automated tests and CI, documented architecture decisions, reproducible environments (Docker), dependency security audits and results measured on real data.
+Every project in my repositories ships with automated tests and CI, documented architecture decisions, reproducible environments (Docker), dependency security audits and measured results that name their data: public datasets (Olist, NYC TLC, SEC filings, FAF, Brazilian transport agencies) or, for the fraud projects, synthetic data labelled as synthetic.
 
 ---
 
