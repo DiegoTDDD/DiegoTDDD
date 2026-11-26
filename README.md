@@ -4,7 +4,7 @@
 
 📍 São Paulo state, Brazil · 🗣️ Portuguese (native), English (C2), Spanish (C1)
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-diegotddd.github.io-13233a?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegotddd.github.io/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-diegoalves.vercel.app-13233a?style=for-the-badge&logo=googlechrome&logoColor=white)](https://diegoalves.vercel.app/)
 
 *Case studies and measured results for every project, in English and Portuguese.*
 
@@ -68,4 +68,4 @@ Every project ships with automated tests and CI, documented architecture decisio
 - AI Technician — IFNMG (expected 2027)
 - Technologist in Business Management — Fatec Catanduva (2023)
 
-📚 Five books written: the [Data-Driven Decisions trilogy](https://diegotddd.github.io/en/books.html) in English (SQL, Power BI and Python for decisions), plus a business book and a 1,042-page data science guide in Portuguese.
+📚 Five books written: the [Data-Driven Decisions trilogy](https://diegoalves.vercel.app/en/books.html) in English (SQL, Power BI and Python for decisions), plus a business book and a 1,042-page data science guide in Portuguese.
