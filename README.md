@@ -29,7 +29,7 @@
 | [**Supply Chain Risk Intelligence**](https://github.com/DiegoTDDD/supply-chain-risk-intelligence) | Delivery-delay analysis from cause to decision: causal inference, survival analysis, forecasting, SHAP and optimization | statsmodels, lifelines, XGBoost, PuLP | [Demo](https://diego-supply-chain-risk.streamlit.app) |
 | [**NYC Tip MLOps**](https://github.com/DiegoTDDD/nyc-tip-mlops) | End-to-end MLOps: training, model registry, API serving and drift monitoring | MLflow, FastAPI, Evidently, Docker | [Demo](https://nyc-tip-mlops.streamlit.app) |
 | [**NYC Taxi Lakehouse**](https://github.com/DiegoTDDD/nyc-taxi-lakehouse) | Medallion lakehouse over 22M+ taxi trips with schema evolution and data quality checks | Delta Lake, DuckDB, Dagster | [Demo](https://nyc-taxi-lakehouse.streamlit.app) |
-| [**Olist Analytics**](https://github.com/DiegoTDDD/olist-analytics) | Dimensional model, dbt tests and dashboard on Brazilian e-commerce data | dbt, DuckDB | [Demo](https://diegotddd-olist-analytics.streamlit.app) |
+| [**Olist Analytics**](https://github.com/DiegoTDDD/olist-analytics) | Tested dbt star schema and a three-page Power BI report (22 DAX measures) on Brazilian e-commerce data: rating falls with every day late until about the sixth | dbt, DuckDB, Power BI | [Power BI file](https://github.com/DiegoTDDD/olist-analytics/raw/main/powerbi/OlistEntregas.pbix) |
 | [**Economic Data Platform**](https://github.com/DiegoTDDD/Economic-data-platform) | Containerized ELT pipeline for Brazilian macroeconomic and crypto market data, with quality checks and atomic Gold refresh | PostgreSQL, Docker, GitHub Actions | [Demo](https://diegotddd-economic-data-platform.streamlit.app) |
 
 ## 🤝 Team projects in real use
