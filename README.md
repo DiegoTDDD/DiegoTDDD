@@ -14,7 +14,7 @@
 
 | Project | What it proves |
 |---|---|
-| [**Olist Cloud Warehouse**](https://github.com/DiegoTDDD/olist-cloud-warehouse) | A BigQuery warehouse delivered with Terraform, keyless deploys and enforced dbt contracts; partitioning cuts the bytes read by a one-month query by 92%, measured on every deploy |
+| [**Olist Cloud Warehouse**](https://github.com/DiegoTDDD/olist-cloud-warehouse) | A BigQuery warehouse fed every day by a change feed, with incremental dbt models proven equal to a full rebuild on every pull request, freshness alerts, Terraform and keyless deploys |
 | [**LogiNexus — Freight Intelligence**](https://github.com/DiegoTDDD/freight-intelligence) | Scale and operating under constraints: a 97.6M-row pipeline, and a production out-of-memory crash on a 512 MiB host traced, fixed and guarded by a CI check |
 | [**Fraud Investigation Agents**](https://github.com/DiegoTDDD/fraud-investigation-agents) | An agent measured against baselines with its limits shown: the critic loop lifts pattern accuracy from 47% to 77% on 30 synthetic cases |
 
@@ -22,7 +22,7 @@
 
 | Project | What it does | Stack | Live |
 |---|---|---|---|
-| [**Olist Cloud Warehouse**](https://github.com/DiegoTDDD/olist-cloud-warehouse) | BigQuery warehouse in São Paulo: Terraform, keyless CI through Workload Identity Federation, dbt with enforced contracts; partitioning cuts a one-month query by 92% | BigQuery, Terraform, dbt | [Project page](https://diegotddd.github.io/olist-cloud-warehouse/) |
+| [**Olist Cloud Warehouse**](https://github.com/DiegoTDDD/olist-cloud-warehouse) | BigQuery warehouse in São Paulo with a daily change feed and incremental dbt models (no MERGE in the sandbox: partitions swapped with copy jobs), freshness alerts and a runbook; Terraform, keyless CI through Workload Identity Federation | BigQuery, Terraform, dbt | [Project page](https://diegotddd.github.io/olist-cloud-warehouse/) |
 | [**LogiNexus — Freight Intelligence**](https://github.com/DiegoTDDD/freight-intelligence) | Freight analytics and forecasting platform: 97.6M-row medallion pipeline, forecasting evaluated on held-out years, truck-aware routing and a public API | Python, Polars, DuckDB, FastAPI, Docker | [Demo](https://loginexus-dashboard-preview.onrender.com/) |
 | [**Real-Time Fraud Detection ML**](https://github.com/DiegoTDDD/realtime-fraud-detection-ml) | XGBoost model scoring a live Kafka stream in real time, with a precision/recall dashboard (PR-AUC 0.9925) | XGBoost, Spark Structured Streaming, Kafka | [Demo](https://realtime-fraud-detection-ml.streamlit.app) |
 | [**Real-Time Fraud Streaming**](https://github.com/DiegoTDDD/realtime-fraud-streaming) | Streaming backbone with event-time windows and watermarking over ~10 transactions/second | Redpanda, Spark Structured Streaming | [Demo](https://realtime-fraud-streaming.streamlit.app) |
